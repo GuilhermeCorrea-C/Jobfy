@@ -15,7 +15,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<AppDBContext>(options => 
-    options.UseNpgsql(builder.Configuration.GetConnectionString("ConnectionStrings"))
+    options.UseNpgsql(builder.Configuration.GetConnectionString("ConnectionString"))
 );
 
 builder.Services.AddScoped<IAgendamentoRepository, AgendamentoRepository>();
