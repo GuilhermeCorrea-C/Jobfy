@@ -1,0 +1,8 @@
+namespace Jobfy_API.Services.ViewModels
+{
+    public class AtualizacaoDecisaoRequest
+    {
+        public int Id { get; set; }
+        public string Decisao { get; set; }
+    }
+}

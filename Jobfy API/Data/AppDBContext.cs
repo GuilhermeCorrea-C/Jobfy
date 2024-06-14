@@ -11,10 +11,12 @@ namespace Jobfy_API.Data
         }
 
         public DbSet<Agendamento> Agendamento {  get; set; }
+        public DbSet<Usuario> Usuario { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new AgendamentoMap());
+            modelBuilder.ApplyConfiguration(new UsuarioMap());
             base.OnModelCreating(modelBuilder);
         }
     }

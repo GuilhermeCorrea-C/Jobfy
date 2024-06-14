@@ -1,6 +1,5 @@
 ﻿using Jobfy_API.Models;
 using Jobfy_API.Services.Interfaces;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Jobfy_API.Controllers
@@ -46,14 +45,20 @@ namespace Jobfy_API.Controllers
         }
 
         [HttpPost("aplicar-decisao")]
-        public async Task<IActionResult> AplicarDecisaoAgendamento([FromBody] int id, string decisao)
+        public async Task<IActionResult> AplicarDecisaoAgendamento([FromBody] AtualizacaoDecisaoRequest request)
         {
-            var retornoDecisao = await _agendamentoService.AplicarDecisaoAgendamento(id, decisao);
+            var retornoDecisao = await _agendamentoService.AplicarDecisaoAgendamento(request.Id, request.Decisao);
 
             if(!retornoDecisao.Sucesso)
                 return BadRequest(retornoDecisao.Mensagem);
 
             return Ok(retornoDecisao.Mensagem);
         }
+    }
+
+    public class AtualizacaoDecisaoRequest
+    {
+        public int Id { get; set; }
+        public string Decisao { get; set; }
     }
 }

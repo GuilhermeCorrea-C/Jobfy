@@ -68,6 +68,19 @@ namespace Jobfy_API.Repositories
             if (agendamentoDb is null)
                 return false;
 
+            switch(status)
+            {
+                case "Cancelar":
+                  status = "Cancelado";
+                  break;
+                case "Confirmar":
+                    status = "Confirmado";
+                    break;
+                default:
+                    status = "";
+                    break;
+            }
+
             if (!status.Contains(status))
                 return false;
 
