@@ -10,5 +10,6 @@ namespace Jobfy_API.Repositories.Interfaces
     {
         Task<Usuario> SalvarUsuario(Usuario user);
         Task<Usuario> LoginUsuario(Usuario user);
+        Task<Usuario> GetById(int id);
     }
 }

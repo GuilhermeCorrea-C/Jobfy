@@ -27,9 +27,9 @@ namespace Jobfy_API.Controllers
         }
 
         [HttpGet("get-agendamentos")]
-        public async Task<IActionResult> GetTodosAgendamentos()
+        public async Task<IActionResult> GetTodosAgendamentos([FromQuery] int id)
         {
-            var agendamentos = await _agendamentoService.GetTodosAgendamentos();
+            var agendamentos = await _agendamentoService.GetTodosAgendamentos(id);
             return Ok(agendamentos);
         }
 

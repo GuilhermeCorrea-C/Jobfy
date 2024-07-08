@@ -17,6 +17,11 @@ namespace Jobfy_API.Data.Map
             builder.Property(x => x.Id).ValueGeneratedOnAdd();
             builder.Property(x => x.Email).IsRequired();
             builder.Property(x => x.Senha).IsRequired();
+
+            builder.HasMany(x => x.Agendamentos)
+                   .WithOne(x => x.Usuario)
+                   .HasForeignKey(x => x.UsuarioId)
+                   .HasPrincipalKey(x => x.Id);
         }
     }
 }

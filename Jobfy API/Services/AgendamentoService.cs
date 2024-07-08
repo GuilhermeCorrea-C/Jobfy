@@ -8,10 +8,12 @@ namespace Jobfy_API.Services
     public class AgendamentoService : IAgendamentoService
     {
         private readonly IAgendamentoRepository _agendamentoRepository;
+        private readonly IUsuarioRepository _usuarioRepository;
 
-        public AgendamentoService(IAgendamentoRepository agendamentoRepository)
+        public AgendamentoService(IAgendamentoRepository agendamentoRepository, IUsuarioRepository usuarioRepository)
         {
             _agendamentoRepository = agendamentoRepository;
+            _usuarioRepository = usuarioRepository;
         }
 
         public async Task<Agendamento> CadastrarAgendamento(Agendamento agendamento)
@@ -22,9 +24,9 @@ namespace Jobfy_API.Services
             return await _agendamentoRepository.InsertAgendamento(agendamento);
         }
 
-        public Task<IEnumerable<Agendamento>> GetTodosAgendamentos()
+        public Task<IEnumerable<Agendamento>> GetTodosAgendamentos(int id)
         {
-            return _agendamentoRepository.GetAllAgendamentos();
+            return _agendamentoRepository.GetAllAgendamentos(id);
         }
 
         public async Task<Agendamento> EditarAgendamento(Agendamento agendamento)
@@ -45,7 +47,7 @@ namespace Jobfy_API.Services
                 return new AtualizacaoDecisao
                 {
                     Sucesso = false,
-                    Mensagem = "Ocorreu um erro ao atualizar o status do agendamento."
+                    Mensagem = "Já existe outro agendamento confirmado neste horário ou o agendamento especificado não foi encontrado."
                 };
 
             return new AtualizacaoDecisao

@@ -8,7 +8,7 @@ namespace Jobfy_API.Services.Interfaces
     public interface IAgendamentoService
     {
         Task<Agendamento> CadastrarAgendamento(Agendamento agendamento);
-        Task<IEnumerable<Agendamento>> GetTodosAgendamentos();
+        Task<IEnumerable<Agendamento>> GetTodosAgendamentos(int id);
         Task<Agendamento> EditarAgendamento(Agendamento agendamento);
         Task<AtualizacaoDecisao> AplicarDecisaoAgendamento(int id, string decisao);
     }

@@ -18,6 +18,11 @@ namespace Jobfy_API.Repositories
             _context = context;
         }
 
+        public async Task<Usuario> GetById(int id)
+        {
+            return await _context.Usuario.FirstOrDefaultAsync(x => x.Id == id);
+        }
+
         public Task<Usuario> LoginUsuario(Usuario user)
         {
             try
