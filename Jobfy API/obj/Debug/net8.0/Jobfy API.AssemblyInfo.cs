@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Jobfy API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c6535958007211cae557725c22fe938c241822a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af6fb31ed0c34c1b3c4177aef89eebb1b95664fa")]
 [assembly: System.Reflection.AssemblyProductAttribute("Jobfy API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Jobfy API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

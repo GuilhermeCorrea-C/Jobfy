@@ -1,0 +1,258 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Guilherme\\source\\repos\\Jobfy\\Jobfy API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{69E281A9-1406-48B4-86F1-2364F0C09393}|Jobfy API.csproj|c:\\users\\guilherme\\source\\repos\\jobfy\\jobfy api\\data\\map\\agendamentomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69E281A9-1406-48B4-86F1-2364F0C09393}|Jobfy API.csproj|solutionrelative:data\\map\\agendamentomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69E281A9-1406-48B4-86F1-2364F0C09393}|Jobfy API.csproj|c:\\users\\guilherme\\source\\repos\\jobfy\\jobfy api\\data\\map\\usuariomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69E281A9-1406-48B4-86F1-2364F0C09393}|Jobfy API.csproj|solutionrelative:data\\map\\usuariomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69E281A9-1406-48B4-86F1-2364F0C09393}|Jobfy API.csproj|c:\\users\\guilherme\\source\\repos\\jobfy\\jobfy api\\models\\agendamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69E281A9-1406-48B4-86F1-2364F0C09393}|Jobfy API.csproj|solutionrelative:models\\agendamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69E281A9-1406-48B4-86F1-2364F0C09393}|Jobfy API.csproj|c:\\users\\guilherme\\source\\repos\\jobfy\\jobfy api\\controllers\\agendamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69E281A9-1406-48B4-86F1-2364F0C09393}|Jobfy API.csproj|solutionrelative:controllers\\agendamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69E281A9-1406-48B4-86F1-2364F0C09393}|Jobfy API.csproj|c:\\users\\guilherme\\source\\repos\\jobfy\\jobfy api\\repositories\\agendamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69E281A9-1406-48B4-86F1-2364F0C09393}|Jobfy API.csproj|solutionrelative:repositories\\agendamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69E281A9-1406-48B4-86F1-2364F0C09393}|Jobfy API.csproj|c:\\users\\guilherme\\source\\repos\\jobfy\\jobfy api\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69E281A9-1406-48B4-86F1-2364F0C09393}|Jobfy API.csproj|solutionrelative:repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69E281A9-1406-48B4-86F1-2364F0C09393}|Jobfy API.csproj|c:\\users\\guilherme\\source\\repos\\jobfy\\jobfy api\\repositories\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69E281A9-1406-48B4-86F1-2364F0C09393}|Jobfy API.csproj|solutionrelative:repositories\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69E281A9-1406-48B4-86F1-2364F0C09393}|Jobfy API.csproj|c:\\users\\guilherme\\source\\repos\\jobfy\\jobfy api\\services\\agendamentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69E281A9-1406-48B4-86F1-2364F0C09393}|Jobfy API.csproj|solutionrelative:services\\agendamentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69E281A9-1406-48B4-86F1-2364F0C09393}|Jobfy API.csproj|c:\\users\\guilherme\\source\\repos\\jobfy\\jobfy api\\services\\interfaces\\iagendamentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69E281A9-1406-48B4-86F1-2364F0C09393}|Jobfy API.csproj|solutionrelative:services\\interfaces\\iagendamentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69E281A9-1406-48B4-86F1-2364F0C09393}|Jobfy API.csproj|c:\\users\\guilherme\\source\\repos\\jobfy\\jobfy api\\repositories\\interfaces\\iagendamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69E281A9-1406-48B4-86F1-2364F0C09393}|Jobfy API.csproj|solutionrelative:repositories\\interfaces\\iagendamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69E281A9-1406-48B4-86F1-2364F0C09393}|Jobfy API.csproj|c:\\users\\guilherme\\source\\repos\\jobfy\\jobfy api\\models\\viewmodels\\cadastraragendamentoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69E281A9-1406-48B4-86F1-2364F0C09393}|Jobfy API.csproj|solutionrelative:models\\viewmodels\\cadastraragendamentoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69E281A9-1406-48B4-86F1-2364F0C09393}|Jobfy API.csproj|c:\\users\\guilherme\\source\\repos\\jobfy\\jobfy api\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69E281A9-1406-48B4-86F1-2364F0C09393}|Jobfy API.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69E281A9-1406-48B4-86F1-2364F0C09393}|Jobfy API.csproj|c:\\users\\guilherme\\source\\repos\\jobfy\\jobfy api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{69E281A9-1406-48B4-86F1-2364F0C09393}|Jobfy API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69E281A9-1406-48B4-86F1-2364F0C09393}|Jobfy API.csproj|c:\\users\\guilherme\\source\\repos\\jobfy\\jobfy api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69E281A9-1406-48B4-86F1-2364F0C09393}|Jobfy API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AgendamentoService.cs",
+              "DocumentMoniker": "C:\\Users\\Guilherme\\source\\repos\\Jobfy\\Jobfy API\\Services\\AgendamentoService.cs",
+              "RelativeDocumentMoniker": "Services\\AgendamentoService.cs",
+              "ToolTip": "C:\\Users\\Guilherme\\source\\repos\\Jobfy\\Jobfy API\\Services\\AgendamentoService.cs",
+              "RelativeToolTip": "Services\\AgendamentoService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwBQAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T22:00:56.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IAgendamentoService.cs",
+              "DocumentMoniker": "C:\\Users\\Guilherme\\source\\repos\\Jobfy\\Jobfy API\\Services\\Interfaces\\IAgendamentoService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IAgendamentoService.cs",
+              "ToolTip": "C:\\Users\\Guilherme\\source\\repos\\Jobfy\\Jobfy API\\Services\\Interfaces\\IAgendamentoService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IAgendamentoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T22:00:51.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AgendamentoController.cs",
+              "DocumentMoniker": "C:\\Users\\Guilherme\\source\\repos\\Jobfy\\Jobfy API\\Controllers\\AgendamentoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AgendamentoController.cs",
+              "ToolTip": "C:\\Users\\Guilherme\\source\\repos\\Jobfy\\Jobfy API\\Controllers\\AgendamentoController.cs",
+              "RelativeToolTip": "Controllers\\AgendamentoController.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAgwBQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T21:59:26.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Guilherme\\source\\repos\\Jobfy\\Jobfy API\\Repositories\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\Guilherme\\source\\repos\\Jobfy\\Jobfy API\\Repositories\\UsuarioRepository.cs",
+              "RelativeToolTip": "Repositories\\UsuarioRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T21:56:50.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AgendamentoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Guilherme\\source\\repos\\Jobfy\\Jobfy API\\Repositories\\AgendamentoRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\AgendamentoRepository.cs",
+              "ToolTip": "C:\\Users\\Guilherme\\source\\repos\\Jobfy\\Jobfy API\\Repositories\\AgendamentoRepository.cs",
+              "RelativeToolTip": "Repositories\\AgendamentoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAgwBgAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T21:56:50.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AgendamentoMap.cs",
+              "DocumentMoniker": "C:\\Users\\Guilherme\\source\\repos\\Jobfy\\Jobfy API\\Data\\Map\\AgendamentoMap.cs",
+              "RelativeDocumentMoniker": "Data\\Map\\AgendamentoMap.cs",
+              "ToolTip": "C:\\Users\\Guilherme\\source\\repos\\Jobfy\\Jobfy API\\Data\\Map\\AgendamentoMap.cs",
+              "RelativeToolTip": "Data\\Map\\AgendamentoMap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T21:46:32.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Agendamento.cs",
+              "DocumentMoniker": "C:\\Users\\Guilherme\\source\\repos\\Jobfy\\Jobfy API\\Models\\Agendamento.cs",
+              "RelativeDocumentMoniker": "Models\\Agendamento.cs",
+              "ToolTip": "C:\\Users\\Guilherme\\source\\repos\\Jobfy\\Jobfy API\\Models\\Agendamento.cs",
+              "RelativeToolTip": "Models\\Agendamento.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAiwBEAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T21:47:53.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsuarioMap.cs",
+              "DocumentMoniker": "C:\\Users\\Guilherme\\source\\repos\\Jobfy\\Jobfy API\\Data\\Map\\UsuarioMap.cs",
+              "RelativeDocumentMoniker": "Data\\Map\\UsuarioMap.cs",
+              "ToolTip": "C:\\Users\\Guilherme\\source\\repos\\Jobfy\\Jobfy API\\Data\\Map\\UsuarioMap.cs",
+              "RelativeToolTip": "Data\\Map\\UsuarioMap.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAowBoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T21:46:29.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IAgendamentoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Guilherme\\source\\repos\\Jobfy\\Jobfy API\\Repositories\\Interfaces\\IAgendamentoRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IAgendamentoRepository.cs",
+              "ToolTip": "C:\\Users\\Guilherme\\source\\repos\\Jobfy\\Jobfy API\\Repositories\\Interfaces\\IAgendamentoRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IAgendamentoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T22:02:21.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CadastrarAgendamentoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Guilherme\\source\\repos\\Jobfy\\Jobfy API\\Models\\ViewModels\\CadastrarAgendamentoViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\CadastrarAgendamentoViewModel.cs",
+              "ToolTip": "C:\\Users\\Guilherme\\source\\repos\\Jobfy\\Jobfy API\\Models\\ViewModels\\CadastrarAgendamentoViewModel.cs",
+              "RelativeToolTip": "Models\\ViewModels\\CadastrarAgendamentoViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T22:17:18.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IUsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Guilherme\\source\\repos\\Jobfy\\Jobfy API\\Repositories\\Interfaces\\IUsuarioRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IUsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\Guilherme\\source\\repos\\Jobfy\\Jobfy API\\Repositories\\Interfaces\\IUsuarioRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IUsuarioRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T22:24:13.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Guilherme\\source\\repos\\Jobfy\\Jobfy API\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Guilherme\\source\\repos\\Jobfy\\Jobfy API\\Models\\Usuario.cs",
+              "RelativeToolTip": "Models\\Usuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T21:46:43.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Guilherme\\source\\repos\\Jobfy\\Jobfy API\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Guilherme\\source\\repos\\Jobfy\\Jobfy API\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-08T21:46:00.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Guilherme\\source\\repos\\Jobfy\\Jobfy API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Guilherme\\source\\repos\\Jobfy\\Jobfy API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T21:45:56.354Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

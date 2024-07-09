@@ -2763,24 +2763,26 @@
     ]
   },
   "packageFolders": {
-    "/home/lucas/.nuget/packages/": {}
+    "C:\\Users\\Guilherme\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/lucas/projetos/csharp/Jobfy/Jobfy API/Jobfy API.csproj",
+      "projectUniqueName": "C:\\Users\\Guilherme\\Source\\Repos\\Jobfy\\Jobfy API\\Jobfy API.csproj",
       "projectName": "Jobfy API",
-      "projectPath": "/home/lucas/projetos/csharp/Jobfy/Jobfy API/Jobfy API.csproj",
-      "packagesPath": "/home/lucas/.nuget/packages/",
-      "outputPath": "/home/lucas/projetos/csharp/Jobfy/Jobfy API/obj/",
+      "projectPath": "C:\\Users\\Guilherme\\Source\\Repos\\Jobfy\\Jobfy API\\Jobfy API.csproj",
+      "packagesPath": "C:\\Users\\Guilherme\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Guilherme\\Source\\Repos\\Jobfy\\Jobfy API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/lucas/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Guilherme\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2793,6 +2795,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -2847,7 +2854,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.105/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
