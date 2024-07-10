@@ -1,6 +1,6 @@
 # Mobile Apps - Aplicativos Mobile - UCL
 
-Repositório do GitHub para o projeto final da disciplina de Mobile Apps.
+Repositório de backend .NET para o projeto final da disciplina de Mobile Apps.
 O grupo é composto pelos alunos Lucas Soares e Guilherme Correa.
 
 ## Resumo - Jobfy
