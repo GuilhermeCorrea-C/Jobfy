@@ -60,6 +60,12 @@ namespace Jobfy_API.Repositories
             agendamentoDb.TipoServico = agendamento.TipoServico;
             agendamentoDb.ValorOrcamento = agendamento.ValorOrcamento;
             agendamentoDb.NomeCliente = agendamento.NomeCliente;
+            agendamentoDb.Despesas = agendamento.Despesas;
+            agendamentoDb.DataFim = agendamento.DataFim;
+            agendamentoDb.DataInicio = agendamento.DataInicio;
+
+            if (agendamentoDb.Status == "Cancelado")
+                agendamentoDb.Status = "Pendente Confirmação";
 
             _dbContext.Agendamento.Update(agendamentoDb);
             await _dbContext.SaveChangesAsync();
@@ -74,7 +80,7 @@ namespace Jobfy_API.Repositories
             if (agendamentoDb is null)
                 return false;
 
-            if (await VerificaConcomitancia(agendamentoDb))
+            if (await VerificaConcomitancia(agendamentoDb) && status.Equals("Confirmar"))
                 return false;
 
             switch(status)
@@ -86,7 +92,7 @@ namespace Jobfy_API.Repositories
                     status = "Confirmado";
                     break;
                 default:
-                    status = "";
+                    status = "Pendente Confirmação";
                     break;
             }
 
@@ -103,8 +109,8 @@ namespace Jobfy_API.Repositories
         {
             var agendamentosConcomitantes = await _dbContext.Agendamento
                                                             .AsNoTracking()
-                                                            .Where(
-                                                                x => x.DataInicio >= agendamento.DataInicio && 
+                                                            .Where(x =>
+                                                                x.DataInicio >= agendamento.DataInicio && 
                                                                 x.DataFim <= agendamento.DataFim &&
                                                                 x.Status == "Confirmado" &&
                                                                 x.UsuarioId == agendamento.UsuarioId)

@@ -41,19 +41,35 @@ namespace Jobfy_API.Services
 
         public async Task<AtualizacaoDecisao> AplicarDecisaoAgendamento(int id, string decisao)
         {
+            var agendamento = await _agendamentoRepository.SearchById(id);
+
+            if (agendamento.Status == "Confirmado" && decisao.Equals("Confirmar"))
+                return new AtualizacaoDecisao
+                {
+                    Sucesso = false,
+                    Mensagem = "O agendamento especificificado já está confirmado."
+                };
+
+            if (agendamento.Status == "Cancelado")
+                return new AtualizacaoDecisao
+                {
+                    Sucesso = false,
+                    Mensagem = "Não é possível aplicar uma decisão em agendamento cancelado."
+                };
+
             var decisaoAtualizada = await _agendamentoRepository.AtualizarStatusAgendamento(id, decisao);
 
             if (!decisaoAtualizada)
                 return new AtualizacaoDecisao
                 {
                     Sucesso = false,
-                    Mensagem = "Já existe outro agendamento confirmado neste horário ou o agendamento especificado não foi encontrado."
+                    Mensagem = "Já existe outro agendamento confirmado neste horário."
                 };
 
             return new AtualizacaoDecisao
             {
                 Sucesso = true,
-                Mensagem = "Status de agemento realizado com sucesso!"
+                Mensagem = "Status de agendamento atualizado com sucesso!"
             };
         }
     }

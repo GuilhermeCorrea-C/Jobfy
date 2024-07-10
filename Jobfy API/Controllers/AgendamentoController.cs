@@ -50,9 +50,9 @@ namespace Jobfy_API.Controllers
             var retornoDecisao = await _agendamentoService.AplicarDecisaoAgendamento(request.Id, request.Decisao);
 
             if(!retornoDecisao.Sucesso)
-                return BadRequest(retornoDecisao.Mensagem);
+                return BadRequest( new { retornoDecisao.Sucesso, retornoDecisao.Mensagem });
 
-            return Ok(retornoDecisao.Mensagem);
+            return Ok( new { retornoDecisao.Sucesso, retornoDecisao.Mensagem });
         }
     }
 
